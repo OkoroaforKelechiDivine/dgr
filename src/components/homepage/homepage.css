@@ -9,5 +9,16 @@
     font-weight: 400;
     font-style: normal;
     color: black;
-    background-color: #D9D9D9;
+}
+
+.main-body{
+    border: red 3px solid;
+    position: relative;
+}
+.link{
+    background-color: black;
+}
+
+a{
+    background-color: black;
 }
