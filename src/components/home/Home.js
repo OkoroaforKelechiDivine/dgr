@@ -1,11 +1,11 @@
 import React from "react";
-import "./homepage.css"
+import "./home.css"
 
-function HomePage(){
+function Home(){
 
     return(
         <div>Hello</div>
 
     )
 }
-export default HomePage;
+export default Home;
