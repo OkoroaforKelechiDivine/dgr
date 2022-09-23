@@ -1,24 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-.navbar-links{
-    font-family: "'DM Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 6%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
     color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
 }
 
-.main-body{
-    border: red 3px solid;
-    position: relative;
-}
-.link{
-    background-color: black;
-}
-
-a{
-    background-color: black;
+.nav_links li a:hover{
+    color: #890006;
 }
