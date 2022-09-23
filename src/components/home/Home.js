@@ -25,7 +25,7 @@ function Home(){
             </header>
 
             <div className={"first-section"}>
-                <div className={"overlay"}>
+                <div className={"text-overlay"}>
                     <h1>Discover Amazing <br/>
                         Properties in Nigeria
                     </h1>
